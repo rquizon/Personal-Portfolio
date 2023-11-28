@@ -1,0 +1,285 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    background-color: #07040F;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    flex: 1 0 auto;
+    color: #FFFFFF;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+.d-flex {
+    flex-wrap: wrap;
+}
+
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.color-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 60vh;
+}
+
+.singleCol {
+    max-width: 750px;
+}
+
+/*portfolio-title*/
+.portfolio-title {
+    color: #ffc107;
+}
+
+/*email-icon*/
+.email-icon {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+/*Images effect hover*/
+.card:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    /* Add a box shadow on hover */
+    transform: translateY(-5px);
+    /* Move the card slightly up on hover */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    /* Add a smooth transition effect */
+    opacity: 0.9;
+    /* Reduce opacity on hover */
+}
+
+/* Add the hover effect to images in Bootstrap cards */
+.card:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    transform: translateY(-5px);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    opacity: 0.9;
+}
+
+/* Skills Section */
+.row {
+    padding: 10px;
+}
+
+.skills-title {
+    color: #ffc107;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.skill-item {
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    /* Add box shadow to each skill item */
+    height: 100%;
+    /* Set a fixed height for all skill-item elements */
+    margin-bottom: 20px !important;
+}
+
+.skill-title {
+    color: #ffc107;
+    font-size: 1.5em;
+}
+
+.skills-title-1 {
+    color: #fafafa;
+}
+
+.skill-description {
+    color: #dfdfdf;
+    font-size: 1.2em;
+}
+
+/* Other existing styles... */
+
+.contact-icons {
+    margin-left: 2px;
+}
+
+/*Titles*/
+.title-1 {
+    color: #dfdfdf;
+}
+
+.title-2 {
+    color: #dfdfdf;
+}
+
+/*Navvbar*/
+.nav-link {
+    color: #FFFFFF;
+}
+
+.nav-link:hover {
+    color: #ffc107;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: red;
+}
+
+/*Contact icons*/
+.contact-icons {
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    /* Set a small line height */
+}
+
+.contact-icons a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.contact-icons p {
+    margin: 0;
+    margin-right: 10px;
+}
+
+
+/*Main Button*/
+
+
+.main-icons a {
+    color: white;
+    border: none;
+    /* Add this line to remove borders */
+    text-decoration: none;
+    /* Add this line to remove the underline */
+}
+
+.main-icons {
+    margin-bottom: 10px;
+}
+
+/*Main paragraph*/
+.main-paragraph {
+    margin-bottom: 40px;
+}
+
+/* Add this style for the custom Download CV button */
+.btn-download-cv {
+    background-color: transparent;
+    /* No background color */
+    border: 2px solid #fafafa;
+    /* Yellow border */
+    color: #fafafa;
+    /* Yellow text color */
+}
+
+/* Add hover effect for the custom Download CV button */
+.btn-download-cv:hover {
+    background-color: #ffc107;
+    /* Yellow background color on hover */
+    color: #fff;
+    /* White text color on hover */
+}
+
+.btn-primary {
+    background-color: #ffc107;
+    border: none;
+}
+
+/* Add background color for the "Hire Me" button */
+.btn-hire-me {
+    background-color: #ffc107;
+    color: #fff;
+    /* Add text color for better visibility on the background */
+}
+
+/* Add hover effect for the "Hire Me" button */
+.btn-hire-me:hover {
+    background-color: #ec9809;
+    /* Adjust the hover color as needed */
+}
+
+/*Main*/
+.future {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #ffc107;
+}
+
+/*Main page*/
+.center-text {
+    text-align: justify;
+}
+
+.main-heading {
+    font-size: 2em;
+    color: #FFFFFF;
+}
+
+.main-text {
+    font-size: 1.2em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.main {
+    text-align: left;
+    flex: 1 0 auto;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    /* Add more spacing at the bottom */
+}
+
+/* Set the color of the menu burger to white */
+.navbar-toggler-icon {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    /* Adjust the color and strength as needed */
+    border-radius: 5px;
+}
+
+
+.mb-0 {
+    color: #fafafa;
+}
+
+footer {
+    background-color: #3a3a3a;
+    margin-top: 90px;
+    margin-top: 15%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #dfdfdf;
+}
+
+@media (max-width: 768px) {
+    .color-overlay {
+        min-height: 30vh;
+    }
+
+    .about-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 100%;
+    }
+}
